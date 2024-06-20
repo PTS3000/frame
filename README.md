@@ -1,7 +1,5 @@
 # Farcaster Frames - Next.js Examples
 
-## 👀 Watch the [YouTube tutorial](https://youtu.be/g_pkATT8pYU?si=8KwGSzJ_nxWHx-k3)
-
 ### 🖥️ [Live Demo](https://frames-gilt.vercel.app/basic)
 
 Paste the live demo url into https://warpcast.com/~/developers/frames to validate the frame.
@@ -12,8 +10,7 @@ Clone the repo and install dependencies
 
 ```bash
 # Clone the repo
-git clone https://github.com/ChangoMan/frames.git
-
+git clone URL
 # Enter the new directory
 cd frames
 
