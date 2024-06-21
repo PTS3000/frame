@@ -2,23 +2,23 @@
 <html>
   <head>
     <title>Welcome to the Jungle</title>
-    <meta property="og:image" content="https://frame.manada.dev/site-preview.jpg" />
+    <meta
+      property="og:image"
+      content="https://frame.manada.dev/site-preview.jpg"
+    />
     <meta property="fc:frame" content="vNext" />
-    <meta property="fc:frame:image" content="https://frame.manada.dev/site-preview.jpg" />
+    <meta
+      property="fc:frame:image"
+      content="https://frame.manada.dev/site-preview.jpg"
+    />
     <meta property="fc:frame:button:1" content="Start" />
-    <meta property="fc:frame:button:1:action" content="post" />
-    <meta property="fc:frame:button:1:target" content="https://frame-manada-trial-20.localcan.dev/api/next-frame" />
-    <script>
-      function refreshImage() {
-        const timestamp = new Date().getTime();
-        const imageUrl = `https://frame-manada-trial-20.localcan.dev/api/single-screenshot?${timestamp}`;
-        document.getElementById('dynamic-image').src = imageUrl;
-      }
-      setInterval(refreshImage, 1000); // Refresh every 1 second
-    </script>
+    <meta
+      property="fc:frame:post_url"
+      content="https://frame-manada-trial-20.localcan.dev/api/next-frame"
+    />
+    
   </head>
   <body>
     <h1>Basic Frame</h1>
-    <img id="dynamic-image" src="https://frame-manada-trial-20.localcan.dev/api/single-screenshot" />
   </body>
 </html>
